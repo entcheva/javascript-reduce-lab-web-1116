@@ -16,3 +16,16 @@ const monologueLines = [
   'No.',
   'I am the one who knocks!'
 ];
+
+var totalBatteries = batteryBatches.reduce((sum, battery) => sum + battery, 0)
+
+// var wordCount - monologueLines.reduce(cb, 0)
+//
+//
+// function countWords(count, line) {
+//
+//   while (line.) {
+//     code block to be executed
+// }
+//
+// }
